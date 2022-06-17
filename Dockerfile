@@ -1,3 +1,2 @@
 FROM getmeili/meilisearch:latest
-
-EXPOSE 7700
+ENTRYPOINT ./meilisearch --db-path ./meilifiles --http-addr '0.0.0.0:$PORT' --no-analytics --env='production' --master-key="Dung123"
