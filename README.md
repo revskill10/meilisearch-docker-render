@@ -11,3 +11,7 @@ Deploy Meilisearch to render.com
 - `MEILI_ENV` -- environemnt level. Options are `development` or `production`. (Default = `development`)
 
 See full list of options you can configure [here](https://docs.meilisearch.com/reference/features/configuration.html#options)
+
+## Changelog
+
+- Upgrade
